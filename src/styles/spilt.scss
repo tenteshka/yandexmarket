@@ -1,0 +1,295 @@
+.spilt{
+
+  &__row{
+    align-items: center;
+    background:rgb(244 244 244);
+    padding: 10px 0;
+    box-shadow: 0 6px 16px rgba(0,0,0,.2);
+
+  }
+  &__top{
+    position: relative;
+    background: url(//avatars.mds.yandex.net/get-marketcms/1357599/img-edb397d8-9055-4b8e-9753-31351d30abdf.png/optimize);
+    background-image: -webkit-image-set(url(//avatars.mds.yandex.net/get-marketcms/1357599/img-edb397d8-9055-4b8e-9753-31351d30abdf.png/optimize) 1x, url(//avatars.mds.yandex.net/get-marketcms/1668019/img-82bbb499-f884-4ac7-ae8a-1f07edc62f17.png/optimize) 2x);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: auto 373px;
+    height: 375px;
+    width: 100%;
+    margin: 15px 0;
+  }
+  &__present{
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    background: none;
+    flex-direction: column;
+    padding: 0 200px;
+  }
+  a{
+
+    span{
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 28px;
+      word-wrap: break-word;
+    }
+  }
+  &__time{
+   margin: 0 155px;
+    padding: 8px 0;
+  }
+  &__img{
+    position: relative;
+    background-repeat: no-repeat;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    display: flex;
+    height: 230px;
+
+  }
+  &__photo{
+   margin: 0 155px;
+    padding: 8px 0;
+    position: relative;
+  }
+  &__photos{
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+  }
+  &__text{
+    position: relative;
+    width: 100%;
+    align-items: center;
+    padding: 100px 155px 0;
+    p{
+      color:rgb(127 127 127);
+      a{
+        color:rgb(127 127 127);
+      }
+    }
+  }
+  &__banner{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0 155px;
+  }
+  &__banner-img{
+    img{
+      background-position: top center;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__sorting{
+    justify-content: space-between;
+  }
+  &__selects{
+    padding: 15px 155px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+  &__sorting-row{
+    display: flex;
+    padding: 15px 155px;
+    justify-content: space-between;
+  }
+
+  &__author{
+    overflow: hidden;
+    position: relative;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    white-space: nowrap;
+    word-wrap: normal;
+    border: 0;
+    clip: rect(0 0 0 0);
+  }
+  &__select{
+    height: 40px;
+    padding: 0 12px 0 16px;
+    border-color: #dcdcdc;
+    border-radius: 4px;
+    position: relative;
+    letter-spacing: 0;
+    display: flex;
+    text-overflow: ellipsis;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    font: inherit;
+    cursor: pointer;
+    span{
+      white-space: nowrap;
+      color: #000;
+      font-size: 16px;
+      line-height: 38px;
+    }
+  }
+  &__popular :hover{
+    background: #999999;
+    color: white;
+  }
+  &__left{
+    display: flex;
+  }
+
+  &__brand{
+    padding: 40px 0 8px;
+    font-size: 16px;
+    line-height: 22px;
+    cursor: pointer;
+    transition: color .12s ease-out;
+    text-decoration: none;
+    touch-action: manipulation;
+    outline: 0;
+    color: #000;
+  }
+  &__left-ruble{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    label{
+      margin-bottom: 5px;
+    }
+  }
+  &__left-text{
+    font-size: 16px;
+    line-height: 22px;
+    padding: 30px 0 0 ;
+    color: #212121;
+  }
+  &__left-input{
+    padding: 5px;
+    border: 1px solid #fce000;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    width: 150px;
+
+  }
+  &__left-input:hover{
+    background: #EFD9BD;
+  }
+  &__left-title{
+    font-size: 16px;
+    line-height: 22px;
+    color: #212121;
+    padding: 10px 0;
+  }
+  &__left-find{
+    padding: 10px 12px;
+    font-size: 14px;
+    line-height: 20px;
+    border: 1px solid rgb(204 204 204);
+    transition: .1s ease-out;
+    border-radius: 4px;
+  }
+  &__left-label{
+    transition-property: opacity;
+    display: flex;
+    cursor: pointer;
+    transition-duration: .12s;
+    transition-timing-function: ease-in-out;
+    padding: 5px 0;
+  }
+  &__left-tuvio{
+    cursor: pointer;
+    display: flex;
+    margin: 0 6px;
+    border-radius: 7px;
+    word-break: break-word;
+  }
+
+  &__right{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: start;
+    gap: 20px;
+    width: calc(70% - 12.5px);
+    &__right-img{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    &-img{
+      width: 100%;
+      text-align: center;
+      img{
+        width: 100%;
+        background: none;
+        border-radius: 20px;
+        height: 195px;
+        position: relative;
+      }
+    }
+  }
+  &__right-card{
+    width: calc(25% - 15px);
+    display: flex;
+    flex-direction: column;
+
+  }
+  &__right-price{
+    display: flex;
+    font-size: 21px;
+    line-height: 21px;
+    span{
+      font-size: 13px;
+      line-height: 15px;
+      padding: 0 8px;
+      margin-top: 8px;
+      color: #8a8784;
+    }
+  }
+  &__right-price span:before{
+    position: relative;
+    left: - 4px;
+    bottom: 1px;
+    content: "/";
+    color: #8a8784;
+    background-color: transparent;
+    top: auto;
+    transform: none;
+    width: auto;
+    height: auto;
+  }
+  &__right-tomorrow {
+    font-size: 13px;
+    line-height: 18px;
+    display: inline;
+  }
+  &__right-tomorrow:before{
+
+  }
+  &__right-market{
+    color: #8a8784;
+  }
+  &__right-title{
+    font-size: 16px;
+    line-height: 19px;
+    white-space: nowrap; /* Запрещаем перенос строк */
+    overflow: hidden; /* Обрезаем все, что не помещается в область */
+    text-overflow: ellipsis; /* Добавляем многоточие */  }
+  &__right-btn{
+    margin: 8px 0;
+    background: #fce000;
+    width: 100%;
+    height: 32px;
+    border-radius: 7px;
+    display: inline-flex;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    font-family: YS Text, sans-serif;
+  }
+}

@@ -1,0 +1,123 @@
+.home{
+  background: #fff;
+
+  &__row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 0;
+    gap: 25px;
+  }
+  &__left{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: start;
+    gap: 20px;
+    width: calc(70% - 12.5px);
+    &-img{
+      width: 100%;
+      text-align: center;
+      img{
+        width: 100%;
+        border-radius: 20px;
+        height: 226px;
+
+      }
+    }
+  }
+  &__left-card{
+    width: calc(25% - 15px);
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__left-title{
+    align-items: center;
+    font-size: 16px;
+    line-height: 19px;
+    white-space: nowrap; /* Запрещаем перенос строк */
+    overflow: hidden; /* Обрезаем все, что не помещается в область */
+    text-overflow: ellipsis; /* Добавляем многоточие */
+
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+  }
+  &__left-img{
+    object-fit: cover;
+
+  }
+  &__left-price{
+    display: flex;
+    align-items: center;
+    font-size: 21px;
+    font-weight: 700;
+    color: #006933;
+    span{
+      text-decoration: line-through;
+      color: #8a8784;
+      font-size: 13px;
+      margin: 4px;
+      line-height: 20px;
+      white-space: nowrap;
+    }
+  }
+  &__right{
+    background: #EFD9BD;
+    padding:  32px ;
+    border-radius: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    width:calc(30% - 12.5px);
+    &-img{
+      width: 100%;
+      text-align: center;
+      img{
+        width: 100%;
+        border-radius: 20px;
+        height: 190px;
+      }
+    }
+  }
+  &__right-top{
+
+  }
+  &__right-text{
+    display: flex;
+    align-items: center;
+  }
+
+  &__right-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #EFD9BD;
+    width: 68px;
+    height: 32px;
+    border: .5px solid rgba(33, 32, 31, .502);
+    border-radius: 10px;
+  }
+  &__right-title{
+    max-height: 93px;
+    word-wrap: break-word;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 31px;
+  }
+  &__right-card{
+    width: calc(50% - 7.5px);
+    display: flex;
+    flex-direction: column;
+    span{
+      text-decoration: line-through;
+      color: #8a8784;
+      font-size: 13px;
+      margin: 4px;
+      line-height: 20px;
+      white-space: nowrap;
+    }
+  }
+  &__right-img{
+    object-fit: cover;
+  }
+}

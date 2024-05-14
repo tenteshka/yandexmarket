@@ -1,0 +1,102 @@
+.footer{
+  background: #f4f4f4;
+  &__row{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: auto;
+    padding: 48px 25px 40px;
+    padding-right: 130px;
+    padding-left: 130px;
+  }
+
+ &__title{
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 20px;
+   margin: 0 0 16px;
+   color: #454545;
+ }
+ &__item{
+   font-weight: 400;
+   font-size: 13px;
+   line-height: 20px;
+   padding: 0 0 8px;
+   display: block;
+   a{
+     color: #666666;
+   }
+  }
+  &__right-advisor{
+    display: flex;
+  }
+  &__right-basket{
+    width: 36px;
+    height: 36px;
+    background: url("https://yastatic.net/market-export/_/i/desktop/footer/sovetnik-icon.svg");
+  }
+  &__right-titles{
+      margin: 0 1px 0 12px;
+      white-space: normal;
+      color: #454545;
+      font-weight: 700;
+      font-style: normal;
+      font-stretch: normal;
+      font-size: 16px;
+      line-height: 20px;
+    a{
+      font-weight: 400;
+      color: #04b;
+    }
+  }
+  &__right-wtmSs{
+    font-weight: 400;
+    line-height: 16px;
+    color: #666666;
+    font-size: 12px;
+    margin: 20px 0 0;
+    a{
+      color: #666666;
+
+    }
+
+  }
+  &__right-icon{
+    background: url("https://yastatic.net/s3/market-static/export-static/i/desktop/footer/vk-new.svg");
+    width: 24px;
+    height: 26px;
+    margin: 20px 0 0;
+    display: inline-block;
+    background-repeat: no-repeat;
+  }
+  &__bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    line-height: 20px;
+    background: #e8e8e8;
+  }
+  &__bottom-descs{
+    padding: 18px 24px;
+   a{
+     color: #999;
+     margin: 20px;
+   }
+  }
+  &__left-data {
+    color: #999;
+    a{
+      color: #999;
+    }
+  }
+  &__left-company{
+    span{
+      color: #999;
+    }
+    a{
+      color: #999;
+      padding: 15px;
+    }
+  }
+}

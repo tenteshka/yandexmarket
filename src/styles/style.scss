@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  transition: 0.5s;
+  font-family: "Roboto", sans-serif;
+}
+.container{
+  padding: 0 40px;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+}
+.swiper {
+  width: 100%;
+  height: 400px;
+}
+.swiper2{
+  width: 100%;
+  height: 200px;
+}
+.swiper3{
+  width: 100%;
+  height: 388px;
+}
+.swiper4{
+  width: 100%;
+  height: 536px;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+
+@import "footer";
+@import "header";
+@import "home";
+@import "login";
+@import "register";
+@import "spilt";
+@import "cloth";
+@import "favorite";
+@import "cosiness";
+@import "children";
+@import "beauty";
+@import "electronics";
+@import "products";
+@import "pharmacy";
+@import "alice";
+@import "how";
+@import "sell";
+@import "map";
