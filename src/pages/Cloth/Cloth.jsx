@@ -7,6 +7,7 @@ import 'swiper/css/navigation';
 import {useDispatch, useSelector} from "react-redux";
 import {store} from "../../redux";
 import {getCloth} from "../../redux/cloth/cloth";
+import {Link} from "react-router-dom";
 
 const Cloth = () => {
     const {data} = useSelector(store => store.cloth)
@@ -25,42 +26,8 @@ const Cloth = () => {
                         </div>
                         <div className="cloth__center">
                             <ul className={"cloth__items"}>
-                                <li className={"cloth__item"}><a href="#">Женщинам</a>
-                                    <ul>
-                                        <li>
-                                            <a href="#">Верхняя одежда</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Спортивная одежда</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Футболки и топы</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Юбки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Пиджаки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Платья и сарафаны</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Боди</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Туники</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Шорты</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Юбки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Обувь</a>
-                                        </li>
-                                    </ul>
+                                <li className={"cloth__item"}>
+                                    <a href="#">Женщинам</a>
                                 </li>
                                 <li className={"cloth__item"}><a href="#">Мужчинам</a></li>
                                 <li className={"cloth__item"}><a href="#">Детям</a></li>
@@ -92,6 +59,7 @@ const Cloth = () => {
             </div>
             <section className={"logo"}>
                 <div className="container">
+
                     <Swiper className={"swiper2"}
                     // install Swiper modules
                     modules={[Navigation, Pagination, Scrollbar, A11y]}
@@ -151,7 +119,9 @@ const Cloth = () => {
                     onSwiper={(swiper) => console.log(swiper)}
                     onSlideChange={() => console.log('slide change')}
                     >
-                    <SwiperSlide><div className="patrol__swipers">
+                    <SwiperSlide>
+                        <Link to={"/description"}>
+                            <div className="patrol__swipers">
                                 <div className="patrol__img">
                                     <img src="https://avatars.mds.yandex.net/get-mpic/5221948/img_id7755588171427913501.jpeg/180x240" alt="#"/>
                                 </div>
@@ -173,7 +143,9 @@ const Cloth = () => {
                             </span>
                                     </p>
                                 </div>
-                            </div></SwiperSlide>
+                            </div>
+                        </Link>
+                    </SwiperSlide>
                     <SwiperSlide>
                         <div className="patrol__swipers">
                         <div className="patrol__img">
@@ -359,7 +331,8 @@ const Cloth = () => {
                             </span>
                                 </p>
                             </div>
-                        </div></SwiperSlide>
+                        </div>
+                    </SwiperSlide>
                     <SwiperSlide><div className="patrol__swipers">
                             <div className="patrol__img">
                                 <img src="https://avatars.mds.yandex.net/get-mpic/5251231/img_id4249837891809070540.jpeg/180x240" alt="#"/>

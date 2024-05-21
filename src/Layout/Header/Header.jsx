@@ -4,7 +4,14 @@ import { FiBox } from "react-icons/fi";
 import { TiHeartOutline } from "react-icons/ti";
 import { BiSolidCartDownload } from "react-icons/bi";
 import { RiMapPin2Line } from "react-icons/ri";
+import {useDispatch, useSelector} from "react-redux";
+import {store} from "../../redux";
+import { ImExit } from "react-icons/im";
+import {logout} from "../../redux/auth/auth";
+
 const Header = () => {
+    const {data} = useSelector(store => store.auth)
+    const dispatch = useDispatch()
     return (
         <header className={"header"}>
             <div className={"container"}>
@@ -87,11 +94,15 @@ const Header = () => {
                             </Link>
                         </li>
                     </ul>
-                    <Link to={"/login"}>
-                        <button className={"header__menu-btn"}>
-                            Войти
-                        </button>
-                    </Link>
+                    {
+                        data ? <ImExit onClick={() => dispatch(logout())} size={24} style={{cursor:"pointer"}}/>
+                            : <Link to={"/login"}>
+                                <button className={"header__menu-btn"}>
+                                    Войти
+                                </button>
+                            </Link>
+
+                    }
                 </div>
             </div>
             <div className="header__bottom">

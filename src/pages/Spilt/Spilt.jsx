@@ -1,4 +1,6 @@
 import React from 'react';
+import { MdOutlineFavoriteBorder } from "react-icons/md";
+
 
 const Spilt = () => {
     return (
@@ -114,9 +116,9 @@ const Spilt = () => {
                             </div>
                             <div className="spilt__right">
                                 <div className="spilt__right-card">
+                                    <MdOutlineFavoriteBorder className={"spilt__right-svg"} style={{color:"red"}} size={18}/>
                                     <div className="spilt__right-img">
                                         <img src="https://avatars.mds.yandex.net/get-mpic/4592225/img_id8434670524629959435.png/600x600" alt="#" width={"100%"}/>
-                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.58356 0.625916C2.07975 0.625916 0.0500031 2.65565 0.0500031 5.15946C0.0500031 8.60235 2.59794 11.9517 7.58626 15.2497L7.99988 15.5232L8.4135 15.2497C13.402 11.9517 15.95 8.60235 15.95 5.15946C15.95 2.65564 13.9203 0.625916 11.4165 0.625916C10.204 0.625916 9.06034 1.07843 8.00001 1.95835C6.93967 1.07843 5.79599 0.625916 4.58356 0.625916Z"></path><path d="M4.58356 0.625916C2.07975 0.625916 0.0500031 2.65565 0.0500031 5.15946C0.0500031 8.60235 2.59794 11.9517 7.58626 15.2497L7.99988 15.5232L8.4135 15.2497C13.402 11.9517 15.95 8.60235 15.95 5.15946C15.95 2.65564 13.9203 0.625916 11.4165 0.625916C10.204 0.625916 9.06034 1.07843 8.00001 1.95835C6.93967 1.07843 5.79599 0.625916 4.58356 0.625916ZM1.55 5.15946C1.55 3.48408 2.90818 2.12592 4.58356 2.12592C5.57686 2.12592 6.53192 2.57189 7.47198 3.50387L8.00002 4.02738L8.52806 3.50387C9.4681 2.57189 10.4231 2.12592 11.4165 2.12592C13.0918 2.12592 14.45 3.48407 14.45 5.15946C14.45 7.9033 12.3326 10.7699 7.99989 13.7209C3.66728 10.7699 1.55 7.9033 1.55 5.15946Z"></path></svg>
                                     </div>
                                     <h3 className={"spilt__right-title"}>
                                         32” Телевизор Tuvio HD-ready DLED на платформе YaOS, STV-32DHBK2R, черный
@@ -142,7 +144,6 @@ const Spilt = () => {
                                 <div className="spilt__right-card">
                                     <div className="spilt__right-img">
                                         <img src="https://avatars.mds.yandex.net/get-mpic/12628328/img_id932885281283309532.jpeg/600x600" alt="#" width={"100%"}/>
-
                                     </div>
                                     <h3 className={"spilt__right-title"}>
                                         Кофеварка рожковая с автокапучинатором Tuvio TCM04EA, серебристый/черный

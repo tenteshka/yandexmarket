@@ -1,6 +1,5 @@
 .home{
   background: #fff;
-
   &__row{
     display: flex;
     flex-wrap: wrap;
@@ -13,6 +12,12 @@
     align-content: start;
     gap: 20px;
     width: calc(70% - 12.5px);
+    position: relative;
+    &-svg{
+      position: absolute;
+      top: 8px;
+      right: 10px;
+    }
     &-img{
       width: 100%;
       text-align: center;
@@ -21,6 +26,7 @@
         border-radius: 20px;
         height: 226px;
 
+
       }
     }
   }
@@ -28,22 +34,25 @@
     width: calc(25% - 15px);
     display: flex;
     flex-direction: column;
+
+
   }
 
   &__left-title{
     align-items: center;
     font-size: 16px;
     line-height: 19px;
-    white-space: nowrap; /* Запрещаем перенос строк */
-    overflow: hidden; /* Обрезаем все, что не помещается в область */
-    text-overflow: ellipsis; /* Добавляем многоточие */
-
+    font-weight: 400;
+    overflow: hidden;
+    text-overflow: ellipsis;
     display: -webkit-box;
     -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
   }
   &__left-img{
+    background: slategray;
     object-fit: cover;
-
+    padding: 2px;
   }
   &__left-price{
     display: flex;
@@ -56,6 +65,7 @@
       color: #8a8784;
       font-size: 13px;
       margin: 4px;
+      font-weight: 400;
       line-height: 20px;
       white-space: nowrap;
     }
@@ -108,6 +118,7 @@
     width: calc(50% - 7.5px);
     display: flex;
     flex-direction: column;
+
     span{
       text-decoration: line-through;
       color: #8a8784;
@@ -119,5 +130,6 @@
   }
   &__right-img{
     object-fit: cover;
+
   }
 }

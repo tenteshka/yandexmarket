@@ -2,8 +2,8 @@ import {Route, Routes} from "react-router-dom";
 import Layout from "./Layout/Layout";
 import Home from "./pages/Home/Home";
 import "./styles/style.scss"
-import Login from "./pages/Login/Login";
-import Register from "./pages/Register/Register";
+import Login from "./pages/Auth/Login/Login";
+import Register from "./pages/Auth/Register/Register";
 import Spilt from "./pages/Spilt/Spilt";
 import Cloth from "./pages/Cloth/Cloth";
 import Cosiness from "./pages/Сosiness/Cosiness";
@@ -17,6 +17,7 @@ import Alice from "./pages/Alice/Alice";
 import How from "./pages/How/How";
 import Sell from "./pages/Sell/Sell";
 import Map from "./pages/Map/Map";
+import Description from "./pages/Description/Description";
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
         <Route path={"/how"} element={<How/>}/>
         <Route path={"/sell"} element={<Sell/>}/>
         <Route path={"/map"} element={<Map/>}/>
+        <Route path={"/description"} element={<Description/>}/>
       </Route>
         <Route path={"/login"} element={<Login/>}/>
         <Route path={"/register"} element={<Register/>}/>

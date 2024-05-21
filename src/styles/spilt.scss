@@ -216,6 +216,13 @@
     align-content: start;
     gap: 20px;
     width: calc(70% - 12.5px);
+    position: relative;
+    &-svg{
+      position: absolute;
+      z-index: 20;
+      left: 5px;
+      top: 5px;
+    }
     &__right-img{
       display: flex;
       justify-content: center;
@@ -237,7 +244,6 @@
     width: calc(25% - 15px);
     display: flex;
     flex-direction: column;
-
   }
   &__right-price{
     display: flex;
@@ -268,6 +274,11 @@
     line-height: 18px;
     display: inline;
   }
+  &__right-pay{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+  }
   &__right-tomorrow:before{
 
   }
@@ -277,9 +288,13 @@
   &__right-title{
     font-size: 16px;
     line-height: 19px;
-    white-space: nowrap; /* Запрещаем перенос строк */
-    overflow: hidden; /* Обрезаем все, что не помещается в область */
-    text-overflow: ellipsis; /* Добавляем многоточие */  }
+    font-weight: 500;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+  }
   &__right-btn{
     margin: 8px 0;
     background: #fce000;

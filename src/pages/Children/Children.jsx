@@ -3,7 +3,7 @@ import React from 'react';
 const Children = () => {
     return (
         <div>
-            
+            детям
         </div>
     );
 };

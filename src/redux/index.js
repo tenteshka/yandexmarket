@@ -1,8 +1,9 @@
 import {configureStore} from "@reduxjs/toolkit";
-import cloth from "./cloth/cloth"
-
+import auth from "./auth/auth";
+import cloth from "./cloth/cloth";
 export const store = configureStore({
     reducer:{
-        cloth
+        cloth,
+        auth
     }
 })

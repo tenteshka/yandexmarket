@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { FaArrowLeftLong } from "react-icons/fa6";
 import { FcGoogle } from "react-icons/fc";
 import { BsFacebook } from "react-icons/bs";
@@ -6,16 +6,32 @@ import { SlSocialVkontakte } from "react-icons/sl";
 import { BsQrCode } from "react-icons/bs";
 import { PiDotsThreeOutlineDuotone } from "react-icons/pi";
 import { IoFingerPrint } from "react-icons/io5";
-import {Link} from "react-router-dom";
+import {Link, useNavigate} from "react-router-dom";
+import {useDispatch} from "react-redux";
+import {login, register} from "../../../redux/auth/auth";
 
 const Login = () => {
+    const [userL,setUserL] = useState({
+        name:"",
+        email:"",
+    })
+    const dispatch = useDispatch()
+    const navigate = useNavigate()
+
+    const onChange = (e) => {
+        setUserL({...userL,[e.target.name]:e.target.value})
+    }
+    const onSubmit = (e) => {
+        e.preventDefault()
+        dispatch(login(userL)).then(navigate('/'))
+    }
     return (
         <div className={"login"}>
-          <from className="login__from">
+          <from  onSubmit={(e) => onSubmit(e)} className="login__from">
              <div className="login__photo">
                  <div className="login__row">
                      <div className="login__top">
-                         <a href="">
+                         <a href="#">
                              <FaArrowLeftLong size={24} color={"rgba(247, 247, 255, .9)"}/>
                          </a>
                          <svg aria-hidden="true" className="Jr7WflDRB61osMicrA52 YaIDLogo" focusable="false" height="24" viewBox="0 0 127 30" width="127">
@@ -24,11 +40,12 @@ const Login = () => {
                          </svg>
                      </div>
                      <h1 className="login__title">Войдите с Яндекс ID</h1>
-                     <input className={"login__input"} name={"email"} placeholder={"Логин или email"} type="emil"/>
-                     <input className={"login__input"} name={"password"} placeholder={"Пароль"} type="password"/>
+                     <input onChange={(e) => onChange(e)} className={"login__input"} name={"email"} placeholder={"Логин или email"} type="emil"/>
+                     <input onChange={(e) => onChange(e)} className={"login__input"} name={"password"} placeholder={"Пароль"} type="password"/>
                      <button className={"login__btn"} type={"submit"}  style={{cursor:"pointer"}}>Войти</button>
                      <button className={"login__person"} type={"submit"}>
-                         <span><IoFingerPrint style={{cursor:"pointer"}} size={20}/></span>
+                         <span>
+                             <IoFingerPrint style={{cursor:"pointer"}} size={20}/></span>
                          <span>
                           По лицу или отпечат
                       </span>
