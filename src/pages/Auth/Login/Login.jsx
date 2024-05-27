@@ -12,7 +12,7 @@ import {login, register} from "../../../redux/auth/auth";
 
 const Login = () => {
     const [userL,setUserL] = useState({
-        name:"",
+        password:"",
         email:"",
     })
     const dispatch = useDispatch()
@@ -21,13 +21,15 @@ const Login = () => {
     const onChange = (e) => {
         setUserL({...userL,[e.target.name]:e.target.value})
     }
+    console.log(userL)
     const onSubmit = (e) => {
         e.preventDefault()
         dispatch(login(userL)).then(navigate('/'))
+        console.log(321321)
     }
     return (
         <div className={"login"}>
-          <from  onSubmit={(e) => onSubmit(e)} className="login__from">
+          <form  onSubmit={(e) => onSubmit(e)} className="login__from">
              <div className="login__photo">
                  <div className="login__row">
                      <div className="login__top">
@@ -43,7 +45,7 @@ const Login = () => {
                      <input onChange={(e) => onChange(e)} className={"login__input"} name={"email"} placeholder={"Логин или email"} type="emil"/>
                      <input onChange={(e) => onChange(e)} className={"login__input"} name={"password"} placeholder={"Пароль"} type="password"/>
                      <button className={"login__btn"} type={"submit"}  style={{cursor:"pointer"}}>Войти</button>
-                     <button className={"login__person"} type={"submit"}>
+                     <button  className={"login__person"} type={"button"}>
                          <span>
                              <IoFingerPrint style={{cursor:"pointer"}} size={20}/></span>
                          <span>
@@ -52,7 +54,7 @@ const Login = () => {
                      </button>
                      <button className={"login__id"} type={"submit"}>Создать ID</button>
                      <Link to={"/register"}>
-                         <button  className={"login__text"} style={{cursor:"pointer"}}>
+                         <button type={"button"} className={"login__text"} style={{cursor:"pointer"}}>
                              Нет акаунта?
                          </button>
                      </Link>
@@ -86,7 +88,7 @@ const Login = () => {
                      </div>
                  </div>
              </div>
-          </from>
+          </form>
         </div>
     );
 };

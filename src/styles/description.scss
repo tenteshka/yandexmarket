@@ -105,28 +105,16 @@
     transition: border-color .25s;
   }
   &__center-description{
-    position: relative;
-    span{
-      position: absolute;
-      font-size: 13px;
-      color: #04b;
-      transition: .3s;
-      cursor: pointer;
-      font-weight: 400;
-      top: 95px;
-    }
+    padding: 15px 0;
   }
+
   &__center-text{
-    position: absolute;
     font-size: 14px;
     line-height: 18px;
-    top: 15px;
     color: #21201f;
     font-weight: 500;
   }
   &__center-desc{
-    position: absolute;
-    top: 40px;
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
@@ -136,45 +124,58 @@
     font-size: 13px;
     line-height: 17px;
   }
+  &__center-read{
+    font-size: 13px;
+    color: #04b;
+    transition: .3s;
+    cursor: pointer;
+    font-weight: 400;
+    line-height: 17px;
+    padding: 10px 0 0;
+  }
   &__center-o{
-    position: relative;
     font-weight: 500;
     font-size: 14px;
     line-height: 18px;
-    top: 120px;
+    padding: 0 0 10px 0;
+  }
+  &__characteristics{
+
   }
   &__characteristic{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
     margin-bottom: 4px;
-    span{
-      position: relative;
-      font-weight: 400;
-      font-size: 13px;
-      line-height: 17px;
-      top: 130px;
-    }
+    gap: 4px;
+    flex-direction: row;
   }
   &__characteristics-text{
-    position: relative;
-    top: 130px;
     background-color: #fff;
-    padding-right: 5px;
     font-weight: 400;
     font-size: 13px;
     line-height: 17px;
-    color: #8a8784;
+    position: absolute;
+
   }
+  &__characteristics-line{
+    position: relative;
+    border-bottom: 1px dotted #ababab;
+    margin-top: 14px;
+    width: 100%;
+    z-index: 0;
+  }
+  &__characteristics-num{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+  }
+
   &__bottom{
     a{
-      position: relative;
       font-size: 13px;
       font-weight: 400;
       color: #04b;
       transition: .3s;
       cursor: pointer;
-      top: 140px;
       span{
         font-weight: 700;
         padding: 0 5px;
@@ -182,13 +183,12 @@
     }
   }
   &__bottom-all{
-    position: relative;
     font-size: 13px;
     font-weight: 400;
     color: #04b;
     transition: .3s;
     cursor: pointer;
-    top: 135px;
+    padding: 10px 0;
   }
   &__bottom-a{
     padding: 10px 0;
