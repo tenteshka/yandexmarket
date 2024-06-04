@@ -59,7 +59,94 @@
     }
   }
   .discounts{
-    padding: 20px;
+    &__img{
+      border: none;
+      img{
+        width: 100%;
+      }
+    }
+    &__title{
+      line-height: 36px;
+      font-size: 28px;
+      padding: 15px 0;
+    }
+    &__swiper{
+      padding: 30px 52px;
+    }
+    &__swipers{
+      padding: 16px;
+      border-radius: 12px;
+    }
+    &__price{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size:15px;
+      line-height: 15px;
+      font-weight: 500;
+      span{
+        font-size: 13px;
+        line-height: 15px;
+        color: #8a8784;
+        font-weight: 400;
+
+      }
+    }
+    &__price span:before{
+      position: relative;
+      left: - 5px;
+      bottom: 1px;
+      content: "/";
+      background-color: transparent;
+      top: auto;
+      transform: none;
+      width: auto;
+      height: auto;
+    }
+    &__img{
+      object-fit: contain;
+      mix-blend-mode: multiply;
+      outline: none;
+      display: flex;
+
+      img{
+        height: 100%;
+        width: 100%;
+      }
+    }
+    &__pays{
+      text-align: start;
+      padding: 12px 0 30px 0;
+    }
+    &__pay{
+      font-size: 10px;
+      line-height: 16px;
+    }
+    &__text{
+      display: flex;
+      font-size: 16px;
+      line-height: 19px;
+      font-weight: 500;
+      padding: 8px 0;
+      color: #21201f;
+    }
+    &__desc{
+      font-size: 13px;
+      line-height: 18px;
+      color: #21201f;
+    }
+    &__price{
+      justify-content: start;
+      gap: 8px;
+      text-align: center;
+      line-height: 1;
+      font-size: 17px;
+      font-weight: 700;
+      span{
+        font-size: 15px;
+        color: #8a8784;
+      }
+    }
   }
   .rooms{
     &__title{

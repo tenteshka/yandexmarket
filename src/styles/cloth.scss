@@ -131,7 +131,7 @@
         cursor: pointer;
         position: absolute;
         z-index: 9999;
-        right: 9.8%;
+        right: 9.7%;
         margin-top: -5.8%;
       }
     }
@@ -312,8 +312,8 @@
         cursor: pointer;
         position: absolute;
         z-index: 9999;
-        right: 1.8%;
-        margin-top: 16.5%;
+        right: 1.5%;
+        margin-top: 15.5%;
       }
     }
     &__swip{
@@ -391,13 +391,12 @@
     }
   }
   .selection{
-    margin: 0 86px  60px 86px ;
+    margin: 0 86px;
     &__text{
       display: flex;
       font-size: 18px;
       line-height: 21px;
       font-weight: 500;
-      padding: 8px 0;
     }
   }
 }

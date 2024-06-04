@@ -124,15 +124,6 @@
     font-size: 13px;
     line-height: 17px;
   }
-  &__center-read{
-    font-size: 13px;
-    color: #04b;
-    transition: .3s;
-    cursor: pointer;
-    font-weight: 400;
-    line-height: 17px;
-    padding: 10px 0 0;
-  }
   &__center-o{
     font-weight: 500;
     font-size: 14px;
@@ -147,21 +138,14 @@
     margin-bottom: 4px;
     gap: 4px;
     flex-direction: row;
+    justify-content: space-between;
   }
   &__characteristics-text{
     background-color: #fff;
     font-weight: 400;
     font-size: 13px;
     line-height: 17px;
-    position: absolute;
 
-  }
-  &__characteristics-line{
-    position: relative;
-    border-bottom: 1px dotted #ababab;
-    margin-top: 14px;
-    width: 100%;
-    z-index: 0;
   }
   &__characteristics-num{
     font-weight: 400;

@@ -9,7 +9,7 @@
   font-family: "Roboto", sans-serif;
 }
 .container{
-  padding: 0 40px;
+  padding: 8px 40px;
   margin: 0 auto;
   width: 100%;
   height: 100%;
@@ -46,6 +46,10 @@
   width: 100%;
   height: 440px;
 }
+.swiper9{
+  width: 100%;
+  height: 407px;
+}
 .swiper-slide {
   text-align: center;
   font-size: 18px;
@@ -74,6 +78,10 @@
 @import "cosiness";
 @import "children";
 @import "products";
-@import "alice";
 @import "how";
 @import "description";
+@import "basket";
+@import "favorites";
+@import "orders";
+@import "balls";
+@import "map";

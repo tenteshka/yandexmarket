@@ -49,7 +49,7 @@ const Header = () => {
                     </div>
                     <ul className={"header__menu"}>
                         <li className={"header__menu-items"}>
-                            <Link  to={"/"}>
+                            <Link  to={"/balls"}>
                                 <svg width={"50px"} height={"24px"}  fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 20" aria-hidden="true" aria-label="Яндекс Плюс" data-auto="yaPlusBadge">
                                     <linearGradient id="plus-background" gradientUnits="userSpaceOnUse" x1="1.076" x2="43.934" y1="2.357" y2="23.603">
                                         <stop offset=".036" stop-color="#48cce0"></stop>
@@ -70,7 +70,7 @@ const Header = () => {
                             </Link>
                         </li>
                         <li className={"header__menu-items"}>
-                            <Link to={"/"}>
+                            <Link to={"/orders"}>
                                 <FiBox size={24} style={{color:"black"}}/>
                                 <p className={"header__menu-item"}>
                                     Заказы
@@ -78,7 +78,7 @@ const Header = () => {
                             </Link>
                         </li>
                         <li className={"header__menu-items"}>
-                            <Link  to={"/"}>
+                            <Link  to={"/favorites"}>
                                 <TiHeartOutline size={24} style={{color:"black"}} />
                                 <p className={"header__menu-item"}>
                                     Избранное
@@ -86,7 +86,7 @@ const Header = () => {
                             </Link>
                         </li>
                         <li className={"header__menu-items"}>
-                            <Link  to={"/"}>
+                            <Link  to={"/basket"}>
                                 <BiSolidCartDownload size={24} style={{color:"black"}} />
                                 <p className={"header__menu-item"}>
                                     Корзина
@@ -104,105 +104,103 @@ const Header = () => {
 
                     }
                 </div>
-            </div>
-            <div className="header__bottom">
-               <div className="container">
-                   <div className="header__bottom-row">
-                       <div className="header__bottom-left">
-                           <Link to={"/map"}>
-                               <RiMapPin2Line />
-                               <a href=""> Москва</a>
-                           </Link>
+                <div className="header__bottom">
+                    <div className="header__bottom-row">
+                        <div className="header__bottom-left">
+                            <Link to={"/map"}>
+                                <RiMapPin2Line />
+                                <a href="#"> Бишкек</a>
+                            </Link>
 
-                       </div>
-                       <div className="header__bottom-center">
-                               <ul className={"header__bottom-menu"}>
-                                   <li className={"header__bottom-items"}>
-                                       <Link  to={"/spilt"}>
-                                           <p className={"header__bottom-item"}>
-                                               Сплит 0012
-                                           </p>
-                                       </Link>
-                                   </li>
-                                   <li className={"header__bottom-items"}>
-                                       <Link to={"/favorite"}>
-                                           <p className={"header__bottom-item"}>
-                                               Любимая категория
-                                           </p>
-                                       </Link>
-                                   </li>
-                                   <li className={"header__bottom-items"}>
-                                       <Link  to={"/cloth"}>
-                                           <p className={"header__bottom-item"}>
-                                               Одежда
-                                           </p>
-                                       </Link>
-                                   </li>
-                                   <li className={"header__bottom-items"}>
-                                       <Link  to={"/cosiness"}>
-                                           <p className={"header__bottom-item"}>
-                                               Дом
-                                           </p>
-                                       </Link>
-                                   </li>
-                                   <li className={"header__bottom-items"}>
-                                       <Link  to={"/children"}>
-                                           <p className={"header__bottom-item"}>
-                                               Детям
-                                           </p>
-                                       </Link>
-                                   </li>
-                                   <li className={"header__bottom-items"}>
-                                       <Link  to={"/beauty"}>
-                                           <p className={"header__bottom-item"}>
-                                               Красота
-                                           </p>
-                                       </Link>
-                                   </li>
-                                   <li className={"header__bottom-items"}>
-                                       <Link  to={"/electronics"}>
-                                           <p className={"header__bottom-item"}>
-                                               Электроника
-                                           </p>
-                                       </Link>
-                                   </li>
-                                   <li className={"header__bottom-items"}>
-                                       <Link  to={"/products"}>
-                                           <p className={"header__bottom-item"}>
-                                               Продукты
-                                           </p>
-                                       </Link>
-                                   </li>
-                                   <li className={"header__bottom-items"}>
-                                       <Link  to={"/pharmacy"}>
-                                           <p className={"header__bottom-item"}>
-                                               Аптека
-                                           </p>
-                                       </Link>
-                                   </li>
-                                   <li className={"header__bottom-items"}>
-                                       <Link  to={"/alice"}>
-                                           <p className={"header__bottom-item"}>
-                                               Алиса
-                                           </p>
-                                       </Link>
-                                   </li>
-                               </ul>
-                       </div>
-                       <div className="header__bottom-right">
-                           <Link to={"/how"}>
-                               <p className={"header__bottom-text"}>
-                                   Покупайте как юрлица
-                               </p>
-                           </Link>
-                           <Link to={"/sell"}>
-                               <p className={"header__bottom-text"}>
-                                   Продавайте на Маркете
-                               </p>
-                           </Link>
-                       </div>
-                   </div>
-               </div>
+                        </div>
+                        <div className="header__bottom-center">
+                            <ul className={"header__bottom-menu"}>
+                                <li className={"header__bottom-items"}>
+                                    <Link  to={"/spilt"}>
+                                        <p className={"header__bottom-item"}>
+                                            Сплит 0012
+                                        </p>
+                                    </Link>
+                                </li>
+                                <li className={"header__bottom-items"}>
+                                    <Link to={"/favorite"}>
+                                        <p className={"header__bottom-item"}>
+                                            Любимая категория
+                                        </p>
+                                    </Link>
+                                </li>
+                                <li className={"header__bottom-items"}>
+                                    <Link  to={"/cloth"}>
+                                        <p className={"header__bottom-item"}>
+                                            Одежда
+                                        </p>
+                                    </Link>
+                                </li>
+                                <li className={"header__bottom-items"}>
+                                    <Link  to={"/cosiness"}>
+                                        <p className={"header__bottom-item"}>
+                                            Дом
+                                        </p>
+                                    </Link>
+                                </li>
+                                <li className={"header__bottom-items"}>
+                                    <Link  to={"/children"}>
+                                        <p className={"header__bottom-item"}>
+                                            Детям
+                                        </p>
+                                    </Link>
+                                </li>
+                                <li className={"header__bottom-items"}>
+                                    <Link  to={"/beauty"}>
+                                        <p className={"header__bottom-item"}>
+                                            Красота
+                                        </p>
+                                    </Link>
+                                </li>
+                                <li className={"header__bottom-items"}>
+                                    <Link  to={"/electronics"}>
+                                        <p className={"header__bottom-item"}>
+                                            Электроника
+                                        </p>
+                                    </Link>
+                                </li>
+                                <li className={"header__bottom-items"}>
+                                    <Link  to={"/products"}>
+                                        <p className={"header__bottom-item"}>
+                                            Продукты
+                                        </p>
+                                    </Link>
+                                </li>
+                                <li className={"header__bottom-items"}>
+                                    <Link  to={"/pharmacy"}>
+                                        <p className={"header__bottom-item"}>
+                                            Аптека
+                                        </p>
+                                    </Link>
+                                </li>
+                                <li className={"header__bottom-items"}>
+                                    <Link  to={"/"}>
+                                        <p className={"header__bottom-item"}>
+                                            ИКЕА
+                                        </p>
+                                    </Link>
+                                </li>
+                            </ul>
+                        </div>
+                        <div className="header__bottom-right">
+                            <Link to={"/how"}>
+                                <p className={"header__bottom-text"}>
+                                    Покупайте как юрлица
+                                </p>
+                            </Link>
+                            <Link to={"/sell"}>
+                                <p className={"header__bottom-text"}>
+                                    Продавайте на Маркете
+                                </p>
+                            </Link>
+                        </div>
+                    </div>
+                </div>
             </div>
         </header>
     );

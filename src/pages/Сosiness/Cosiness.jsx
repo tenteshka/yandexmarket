@@ -152,10 +152,10 @@ const Cosiness = () => {
                </section>
             <section className={"discounts"}>
                 <div className="container">
-                    <h2 className="patrol__title">
+                    <h2 className="discounts__title">
                         Большие скидки на товары для дома
                     </h2>
-                    <div className="patrol__swiper">
+                    <div className="discounts__swiper">
                         <Swiper className={"swiper7"}
                             // install Swiper modules
                                 modules={[Navigation, Pagination, Scrollbar, A11y]}
@@ -168,13 +168,13 @@ const Cosiness = () => {
                         >
 
                             <SwiperSlide>
-                                <div className="patrol__swipers">
+                                <div className="discounts__swipers">
                                     <Link to={"/description"}>
-                                        <div className="patrol__img">
-                                            <img src="https://avatars.mds.yandex.net/get-mpic/5221948/img_id7755588171427913501.jpeg/180x240" alt="#"/>
+                                        <div className="discounts__img">
+                                            <img src="https://avatars.mds.yandex.net/get-mpic/6409980/img_id8699136490880186550.jpeg/x248_trim" alt="#"/>
                                         </div>
-                                        <div className="patrol__pays">
-                                            <div className="patrol__pay" style={{color:"#006933"}}>
+                                        <div className="discounts__pays">
+                                            <div className="discounts__pay" style={{color:"#006933"}}>
                                                 С картой
                                                 <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="10" height="10" viewBox="0 0 10 10" fill="none">
                                                     <path d="M5.70463 8.005H6.74923V2.005H5.22981C3.70175 2.005 2.89887 2.79062 2.89887 3.94745C2.89887 4.87119 3.33916 5.41508 4.12477 5.97623L2.76074 8.005H3.89168L5.4111 5.7345L4.88448 5.38054C4.24563 4.94889 3.93484 4.6122 3.93484 3.88702C3.93484 3.24817 4.38376 2.81652 5.23844 2.81652H5.70463V8.005Z" fill="currentColor"></path>
@@ -182,342 +182,14 @@ const Cosiness = () => {
                                                 </svg>
                                                 Пэй
                                             </div>
-                                            <p className="patrol__price" style={{color:"#006933"}}>
+                                            <p className="discounts__price" style={{color:"#006933"}}>
                                                 2 564 p
                                                 <span>
                                                без:&nbsp; 2 849 p
                                              </span>
                                             </p>
-                                            <h3 className={"patrol__text"}>PATROL</h3>
-                                            <p className={"patrol__desc"}>Кроссовки</p>
-                                        </div>
-                                    </Link>
-                                    <button className="spilt__right-btn">
-                                        В корзину
-                                    </button>
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <div className="patrol__swipers">
-                                    <div className="patrol__img">
-                                        <img src="https://avatars.mds.yandex.net/get-mpic/11549745/img_id4082542921498687520.jpeg/180x240" alt="#"/>
-                                    </div>
-                                    <div className="patrol__pays">
-                                        <div className="patrol__pay" style={{color:"#006933"}}>
-                                            С картой
-                                            <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="10" height="10" viewBox="0 0 10 10" fill="none">
-                                                <path d="M5.70463 8.005H6.74923V2.005H5.22981C3.70175 2.005 2.89887 2.79062 2.89887 3.94745C2.89887 4.87119 3.33916 5.41508 4.12477 5.97623L2.76074 8.005H3.89168L5.4111 5.7345L4.88448 5.38054C4.24563 4.94889 3.93484 4.6122 3.93484 3.88702C3.93484 3.24817 4.38376 2.81652 5.23844 2.81652H5.70463V8.005Z" fill="currentColor"></path>
-                                                <rect x="0.25" y="0.25" width="9.5" height="9.5" rx="4.75" stroke="currentColor" stroke-width="0.5"></rect>
-                                            </svg>
-                                            Пэй
-                                        </div>
-                                        <p className="patrol__price" style={{color:"#006933"}}>
-                                            3 104 p
-                                            <span>
-                                          без:&nbsp; 3 449 p
-                                          </span>
-                                        </p>
-                                        <h3 className={"patrol__text"}>PATROL</h3>
-                                        <p className={"patrol__desc"}>Кроссовки</p>
-                                    </div>
-                                    <button className="spilt__right-btn">
-                                        В корзину
-                                    </button>
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <div className="patrol__swipers">
-                                    <Link to={"/description"}>
-                                        <div className={"patrol__img"}>
-                                            <img src="https://avatars.mds.yandex.net/get-mpic/1750207/img_id3747828772563930436.jpeg/180x240" alt="#"/>
-                                        </div>
-                                        <div className="patrol__pays">
-                                            <div className="patrol__pay" style={{color:"#006933"}}>
-                                                С картой
-                                                <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="10" height="10" viewBox="0 0 10 10" fill="none">
-                                                    <path d="M5.70463 8.005H6.74923V2.005H5.22981C3.70175 2.005 2.89887 2.79062 2.89887 3.94745C2.89887 4.87119 3.33916 5.41508 4.12477 5.97623L2.76074 8.005H3.89168L5.4111 5.7345L4.88448 5.38054C4.24563 4.94889 3.93484 4.6122 3.93484 3.88702C3.93484 3.24817 4.38376 2.81652 5.23844 2.81652H5.70463V8.005Z" fill="currentColor"></path>
-                                                    <rect x="0.25" y="0.25" width="9.5" height="9.5" rx="4.75" stroke="currentColor" stroke-width="0.5"></rect>
-                                                </svg>
-                                                Пэй
-                                            </div>
-                                            <p className="patrol__price" style={{color:"#006933"}}>
-                                                1 755 p
-                                                <span>
-                                без:&nbsp; 1 950 p
-                            </span>
-                                            </p>
-                                            <h3 className={"patrol__text"}>PATROL</h3>
-                                            <p className={"patrol__desc"}>Кроссовки</p>
-                                        </div>
-                                    </Link>
-                                    <button className="spilt__right-btn">
-                                        В корзину
-                                    </button>
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <div className="patrol__swipers">
-                                    <Link to={"/description"}>
-                                        <div className="patrol__img">
-                                            <img src="https://avatars.mds.yandex.net/get-mpic/12415859/img_id6492615017608527550.jpeg/180x240" alt="#"/>
-                                        </div>
-                                        <div className="patrol__pays">
-                                            <div className="patrol__pay" style={{color:"#006933"}}>
-                                                С картой
-                                                <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="10" height="10" viewBox="0 0 10 10" fill="none">
-                                                    <path d="M5.70463 8.005H6.74923V2.005H5.22981C3.70175 2.005 2.89887 2.79062 2.89887 3.94745C2.89887 4.87119 3.33916 5.41508 4.12477 5.97623L2.76074 8.005H3.89168L5.4111 5.7345L4.88448 5.38054C4.24563 4.94889 3.93484 4.6122 3.93484 3.88702C3.93484 3.24817 4.38376 2.81652 5.23844 2.81652H5.70463V8.005Z" fill="currentColor"></path>
-                                                    <rect x="0.25" y="0.25" width="9.5" height="9.5" rx="4.75" stroke="currentColor" stroke-width="0.5"></rect>
-                                                </svg>
-                                                Пэй
-                                            </div>
-                                            <h4 className="patrol__price" style={{color:"#006933"}}>
-                                                2 277 p
-                                                <span>
-                                без:&nbsp; 2 530 p
-                            </span>
-                                            </h4>
-                                            <h3 className={"patrol__text"}>PATROL</h3>
-                                            <p className={"patrol__desc"}>Кроссовки</p>
-                                        </div>
-                                    </Link>
-                                    <button className="spilt__right-btn">
-                                        В корзину
-                                    </button>
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <div className="patrol__swipers">
-                                    <Link to={"/description"}>
-                                        <div className="patrol__img">
-                                            <img src="https://avatars.mds.yandex.net/get-mpic/11397617/img_id3308626098714458911.jpeg/180x240" alt="#"/>
-                                        </div>
-                                        <div className="patrol__pays">
-                                            <div className="patrol__pay" style={{color:"#006933"}}>
-                                                С картой
-                                                <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="10" height="10" viewBox="0 0 10 10" fill="none">
-                                                    <path d="M5.70463 8.005H6.74923V2.005H5.22981C3.70175 2.005 2.89887 2.79062 2.89887 3.94745C2.89887 4.87119 3.33916 5.41508 4.12477 5.97623L2.76074 8.005H3.89168L5.4111 5.7345L4.88448 5.38054C4.24563 4.94889 3.93484 4.6122 3.93484 3.88702C3.93484 3.24817 4.38376 2.81652 5.23844 2.81652H5.70463V8.005Z" fill="currentColor"></path>
-                                                    <rect x="0.25" y="0.25" width="9.5" height="9.5" rx="4.75" stroke="currentColor" stroke-width="0.5"></rect>
-                                                </svg>
-                                                Пэй
-                                            </div>
-                                            <p className="patrol__price" style={{color:"#006933"}}>
-                                                3 168 p
-                                                <span>
-                                без:&nbsp; 3 520 p
-                            </span>
-                                            </p>
-                                            <h3 className={"patrol__text"}>PATROL</h3>
-                                            <p className={"patrol__desc"}>Кроссовки</p>
-                                        </div>
-                                    </Link>
-                                    <button className="spilt__right-btn">
-                                        В корзину
-                                    </button>
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <div className="patrol__swipers">
-                                    <Link to={"/description"}>
-                                        <div className="patrol__img">
-                                            <img src="https://avatars.mds.yandex.net/get-mpic/1726038/img_id5963970220377993511.jpeg/180x240" alt="#"/>
-                                        </div>
-                                        <div className="patrol__pays">
-
-                                            <div className="patrol__pay" style={{color:"#006933"}}>
-                                                С картой
-                                                <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="10" height="10" viewBox="0 0 10 10" fill="none">
-                                                    <path d="M5.70463 8.005H6.74923V2.005H5.22981C3.70175 2.005 2.89887 2.79062 2.89887 3.94745C2.89887 4.87119 3.33916 5.41508 4.12477 5.97623L2.76074 8.005H3.89168L5.4111 5.7345L4.88448 5.38054C4.24563 4.94889 3.93484 4.6122 3.93484 3.88702C3.93484 3.24817 4.38376 2.81652 5.23844 2.81652H5.70463V8.005Z" fill="currentColor"></path>
-                                                    <rect x="0.25" y="0.25" width="9.5" height="9.5" rx="4.75" stroke="currentColor" stroke-width="0.5"></rect>
-                                                </svg>
-                                                Пэй
-                                            </div>
-                                            <p className="patrol__price" style={{color:"#006933"}}>
-                                                1 934 p
-                                                <span>
-                                без:&nbsp; 2 14 p
-                            </span>
-                                            </p>
-                                            <h3 className={"patrol__text"}>PATROL</h3>
-                                            <p className={"patrol__desc"}>Кроссовки</p>
-                                        </div>
-                                    </Link>
-                                    <button className="spilt__right-btn">
-                                        В корзину
-                                    </button>
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <div className="patrol__swipers">
-                                    <Link to={"/description"}>
-                                        <div className="patrol__img">
-                                            <img src="https://avatars.mds.yandex.net/get-mpic/12525304/img_id7011137751469344127.jpeg/180x240" alt="#"/>
-                                        </div>
-                                        <div className="patrol__pays">
-                                            <div className="patrol__pay" style={{color:"#006933"}}>
-                                                С картой
-                                                <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="10" height="10" viewBox="0 0 10 10" fill="none">
-                                                    <path d="M5.70463 8.005H6.74923V2.005H5.22981C3.70175 2.005 2.89887 2.79062 2.89887 3.94745C2.89887 4.87119 3.33916 5.41508 4.12477 5.97623L2.76074 8.005H3.89168L5.4111 5.7345L4.88448 5.38054C4.24563 4.94889 3.93484 4.6122 3.93484 3.88702C3.93484 3.24817 4.38376 2.81652 5.23844 2.81652H5.70463V8.005Z" fill="currentColor"></path>
-                                                    <rect x="0.25" y="0.25" width="9.5" height="9.5" rx="4.75" stroke="currentColor" stroke-width="0.5"></rect>
-                                                </svg>
-                                                Пэй
-                                            </div>
-                                            <p className="patrol__price" style={{color:"#006933"}}>
-                                                2 766 p
-                                                <span>
-                                без:&nbsp; 3 073 p
-                            </span>
-                                            </p>
-                                            <h3 className={"patrol__text"}>PATROL</h3>
-                                            <p className={"patrol__desc"}>Кроссовки</p>
-                                        </div>
-                                    </Link>
-                                    <button className="spilt__right-btn">
-                                        В корзину
-                                    </button>
-                                </div></SwiperSlide>
-                            <SwiperSlide>
-                                <div className="patrol__swipers">
-                                    <Link to={"/description"}>
-                                        <div className="patrol__img">
-                                            <img src="https://avatars.mds.yandex.net/get-mpic/1361544/img_id6353536800950117943.jpeg/180x240" alt="#"/>
-                                        </div>
-                                        <div className="patrol__pays">
-                                            <div className="patrol__pay" style={{color:"#006933"}}>
-                                                С картой
-                                                <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="10" height="10" viewBox="0 0 10 10" fill="none">
-                                                    <path d="M5.70463 8.005H6.74923V2.005H5.22981C3.70175 2.005 2.89887 2.79062 2.89887 3.94745C2.89887 4.87119 3.33916 5.41508 4.12477 5.97623L2.76074 8.005H3.89168L5.4111 5.7345L4.88448 5.38054C4.24563 4.94889 3.93484 4.6122 3.93484 3.88702C3.93484 3.24817 4.38376 2.81652 5.23844 2.81652H5.70463V8.005Z" fill="currentColor"></path>
-                                                    <rect x="0.25" y="0.25" width="9.5" height="9.5" rx="4.75" stroke="currentColor" stroke-width="0.5"></rect>
-                                                </svg>
-                                                Пэй
-                                            </div>
-                                            <p className="patrol__price" style={{color:"#006933"}}>
-                                                2 204 p
-                                                <span>
-                                               без:&nbsp; 2 449 p
-                                               </span>
-                                            </p>
-                                            <h3 className={"patrol__text"}>PATROL</h3>
-                                            <p className={"patrol__desc"}>Кроссовки</p>
-                                        </div>
-                                    </Link>
-                                    <button className="spilt__right-btn">
-                                        В корзину
-                                    </button>
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <div className="patrol__swipers">
-                                    <Link to={"/description"}>
-                                        <div className="patrol__img">
-                                            <img src="https://avatars.mds.yandex.net/get-mpic/11695357/img_id4156371341370214485.jpeg/180x240" alt="#"/>
-                                        </div>
-                                        <div className="patrol__pays">
-                                            <div className="patrol__pay" style={{color:"#006933"}}>
-                                                С картой
-                                                <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="10" height="10" viewBox="0 0 10 10" fill="none">
-                                                    <path d="M5.70463 8.005H6.74923V2.005H5.22981C3.70175 2.005 2.89887 2.79062 2.89887 3.94745C2.89887 4.87119 3.33916 5.41508 4.12477 5.97623L2.76074 8.005H3.89168L5.4111 5.7345L4.88448 5.38054C4.24563 4.94889 3.93484 4.6122 3.93484 3.88702C3.93484 3.24817 4.38376 2.81652 5.23844 2.81652H5.70463V8.005Z" fill="currentColor"></path>
-                                                    <rect x="0.25" y="0.25" width="9.5" height="9.5" rx="4.75" stroke="currentColor" stroke-width="0.5"></rect>
-                                                </svg>
-                                                Пэй
-                                            </div>
-                                            <p className="patrol__price" style={{color:"#006933"}}>
-                                                1 665 p
-                                                <span>
-                                                   без:&nbsp; 1 850 p
-                                                </span>
-                                            </p>
-                                            <h3 className={"patrol__text"}>PATROL</h3>
-                                            <p className={"patrol__desc"}>Кроссовки</p>
-                                        </div>
-                                    </Link>
-                                    <button className="spilt__right-btn">
-                                        В корзину
-                                    </button>
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <div className="patrol__swipers">
-                                    <Link to={"/description"}>
-                                        <div className="patrol__img">
-                                            <img src="https://avatars.mds.yandex.net/get-mpic/5251231/img_id4249837891809070540.jpeg/180x240" alt="#"/>
-                                        </div>
-                                        <div className="patrol__pays">
-                                            <div className="patrol__pay" style={{color:"#006933"}}>
-                                                С картой
-                                                <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="10" height="10" viewBox="0 0 10 10" fill="none">
-                                                    <path d="M5.70463 8.005H6.74923V2.005H5.22981C3.70175 2.005 2.89887 2.79062 2.89887 3.94745C2.89887 4.87119 3.33916 5.41508 4.12477 5.97623L2.76074 8.005H3.89168L5.4111 5.7345L4.88448 5.38054C4.24563 4.94889 3.93484 4.6122 3.93484 3.88702C3.93484 3.24817 4.38376 2.81652 5.23844 2.81652H5.70463V8.005Z" fill="currentColor"></path>
-                                                    <rect x="0.25" y="0.25" width="9.5" height="9.5" rx="4.75" stroke="currentColor" stroke-width="0.5"></rect>
-                                                </svg>
-                                                Пэй
-                                            </div>
-                                            <p className="patrol__price" style={{color:"#006933"}}>
-                                                2 969 p
-                                                <span>
-                                без:&nbsp; 3 299 p
-                            </span>
-                                            </p>
-                                            <h3 className={"patrol__text"}>PATROL</h3>
-                                            <p className={"patrol__desc"}>Кроссовки</p>
-                                        </div>
-                                    </Link>
-                                    <button className="spilt__right-btn">
-                                        В корзину
-                                    </button>
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <div className="patrol__swipers">
-                                    <Link to={"/description"}>
-                                        <div className="patrol__img">
-                                            <img src="https://avatars.mds.yandex.net/get-mpic/11858961/img_id4064452359772707460.jpeg/180x240" alt="#"/>
-                                        </div>
-                                        <div className="patrol__pays">
-                                            <div className="patrol__pay" style={{color:"#006933"}}>
-                                                С картой
-                                                <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="10" height="10" viewBox="0 0 10 10" fill="none">
-                                                    <path d="M5.70463 8.005H6.74923V2.005H5.22981C3.70175 2.005 2.89887 2.79062 2.89887 3.94745C2.89887 4.87119 3.33916 5.41508 4.12477 5.97623L2.76074 8.005H3.89168L5.4111 5.7345L4.88448 5.38054C4.24563 4.94889 3.93484 4.6122 3.93484 3.88702C3.93484 3.24817 4.38376 2.81652 5.23844 2.81652H5.70463V8.005Z" fill="currentColor"></path>
-                                                    <rect x="0.25" y="0.25" width="9.5" height="9.5" rx="4.75" stroke="currentColor" stroke-width="0.5"></rect>
-                                                </svg>
-                                                Пэй
-                                            </div>
-                                            <p className="patrol__price" style={{color:"#006933"}}>
-                                                2 564 p
-                                                <span>
-                                без:&nbsp; 2 849 p
-                            </span>
-                                            </p>
-                                            <h3 className={"patrol__text"}>PATROL</h3>
-                                            <p className={"patrol__desc"}>Кроссовки</p>
-                                        </div>
-                                    </Link>
-                                    <button className="spilt__right-btn">
-                                        В корзину
-                                    </button>
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <div className="patrol__swipers">
-                                    <Link to={"/description"}>
-                                        <div className="patrol__img">
-                                            <img src="https://avatars.mds.yandex.net/get-mpic/12394941/img_id3560471468107936621.jpeg/180x240" alt="#"/>
-                                        </div>
-                                        <div className="patrol__pays">
-                                            <div className="patrol__pay" style={{color:"#006933"}}>
-                                                С картой
-                                                <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="10" height="10" viewBox="0 0 10 10" fill="none">
-                                                    <path d="M5.70463 8.005H6.74923V2.005H5.22981C3.70175 2.005 2.89887 2.79062 2.89887 3.94745C2.89887 4.87119 3.33916 5.41508 4.12477 5.97623L2.76074 8.005H3.89168L5.4111 5.7345L4.88448 5.38054C4.24563 4.94889 3.93484 4.6122 3.93484 3.88702C3.93484 3.24817 4.38376 2.81652 5.23844 2.81652H5.70463V8.005Z" fill="currentColor"></path>
-                                                    <rect x="0.25" y="0.25" width="9.5" height="9.5" rx="4.75" stroke="currentColor" stroke-width="0.5"></rect>
-                                                </svg>
-                                                Пэй
-                                            </div>
-                                            <p className="patrol__price" style={{color:"#006933"}}>
-                                                2 660 p
-                                                <span>
-                                без:&nbsp; 2 955 p
-                                </span>
-                                            </p>
-                                            <h3 className={"patrol__text"}>PATROL</h3>
-                                            <p className={"patrol__desc"}>Кроссовки</p>
+                                            <h3 className={"discounts__text"}>PATROL</h3>
+                                            <p className={"discounts__desc"}>Кроссовки</p>
                                         </div>
                                     </Link>
                                     <button className="spilt__right-btn">

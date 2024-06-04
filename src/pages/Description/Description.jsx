@@ -117,9 +117,6 @@ const Description = () => {
                                 <p className={"description__center-desc"}>
                                     Встречайте весну с новой мужской коллекцией от известного бренда PATROL! Оригинальные мужские текстильные кроссовки прекрасно подойдут для теплой весенней погоды. Верх модели выполнен из высококачественного текстиля, что обеспечивает хорошую вентиляцию стопы. Удобная подошва дарит комфорт и наслаждение от долгих прогулок на свежем воздухе и занятий на спортивной площадке.В коллекции Весна Лето бренда Патрол широко представлены мужские сандалии, кеды, легкие кроссовки, модные сабо, слипоны. Разная полнота моделей в сочетании с 40,41,42,43,44 размером позволяет подобрать обувь на широкую и узкую ногу для прогулок, занятия спортом, отдыха, путешествий. Обувь белого, бежевого, синего, черного цвета в сочетании с джинсами, легкими брюками подходит под разные стили в одежде. Кроссовки из натуральной кожи обеспечивают комфорт и удобство для занятия спортом в зале и на улице. Текстильные кеды на лето прекрасно подходят для отдыха и отпуска. Новинки коллекции -модные топсайдеры из натуральных материалов . Приятных покупок и ждем Ваших отзывов. Создавая лучшее для вас, команда Patrol.
                                 </p>
-                                <p className={"description__center-read"}>
-                                    Читать далее
-                                </p>
                         </div>
                         <div className="description__center-short">
                             <h3 className="description__center-o">
@@ -130,9 +127,6 @@ const Description = () => {
                                     <div className="description__characteristics-text">
                                         Артикул Маркета
                                     </div>
-                                    <div className="description__characteristics-line">
-
-                                    </div>
                                     <div className={"description__characteristics-num"}>
                                         4899114497
                                     </div>
@@ -141,9 +135,7 @@ const Description = () => {
                                       <div className="description__characteristics-text">
                                           Цвет товара
                                       </div>
-                                      <div className="description__characteristics-line">
 
-                                      </div>
                                       <div className={"description__characteristics-num"}>
                                           черный
                                       </div>
@@ -151,9 +143,6 @@ const Description = () => {
                                   <div className="description__characteristic">
                                       <div className="description__characteristics-text">
                                           Пол
-                                      </div>
-                                      <div className="description__characteristics-line">
-
                                       </div>
                                       <div className={"description__characteristics-num"} style={{color:"#04b"}}>
                                           мужской
@@ -163,9 +152,6 @@ const Description = () => {
                                       <div className="description__characteristics-text">
                                           Материал верха
                                       </div>
-                                      <div className="description__characteristics-line">
-
-                                      </div>
                                       <div className={"description__characteristics-num"}  style={{color:"#04b"}}>
                                           текстиль
                                       </div>
@@ -173,9 +159,6 @@ const Description = () => {
                                   <div className="description__characteristic">
                                       <div className="description__characteristics-text">
                                           Материал подкладки
-                                      </div>
-                                      <div className="description__characteristics-line">
-
                                       </div>
                                       <div className={"description__characteristics-num"}  style={{color:"#04b"}}>
                                             текстиль

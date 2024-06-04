@@ -3,7 +3,6 @@
   &__row{
     display: flex;
     flex-wrap: wrap;
-    margin: 30px 0;
     gap: 25px;
   }
   &__left{
@@ -38,6 +37,7 @@
     align-items: center;
     font-size: 16px;
     line-height: 19px;
+    padding: 2px 0;
     font-weight: 400;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -91,7 +91,6 @@
     display: flex;
     align-items: center;
   }
-
   &__right-btn{
     display: flex;
     justify-content: center;
@@ -126,6 +125,5 @@
   }
   &__right-img{
     object-fit: cover;
-
   }
 }

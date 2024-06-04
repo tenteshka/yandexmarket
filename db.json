@@ -1,34 +1,116 @@
 {
-  "category" : [
-    {
-      "id": 1,
-      "name": "phones"
-    },
-    {
-      "id": 2,
-      "name": "shoes"
-    },
-    {
-      "id": 3,
-      "name": ""
-    },
-    {
-      "id": 4,
-      "name": ""
-    },
-    {
-      "id": 5,
-      "name": ""
-    }
-  ],
   "products":[
     {
       "id": 1,
-      "title": "Солнцезащитные очки Polarized",
-      "image": "https://avatars.mds.yandex.net/get-mpic/5023672/img_id7951034824791931225.jpeg/600x800",
-      "price": 774,
-      "description": "",
-      "category": ""
+      "title": "Дозатор для мыла \"Сакура\", 250мл (мыло: вода =1:3)",
+      "image": "https://avatars.mds.yandex.net/get-mpic/1704691/img_id561753313317889330.jpeg/300x400",
+      "priceOne": 287,
+      "priceTwo": 850
+    },
+    {
+      "id": 2,
+      "title": "Серый плед пушистый травка светло-серый 200*220",
+      "image": "https://avatars.mds.yandex.net/get-mpic/5220508/2a0000018a45b779931e62d0b8fadef05e46/300x400",
+      "priceOne": 1113,
+      "priceTwo": 3180
+    },
+    {
+      "id": 3,
+      "title": "Большой игровой компьютерный коврик для мыши с рисунком hello kitty Хелло Китти кошка в розовом",
+      "image": "https://avatars.mds.yandex.net/get-mpic/7430655/img_id8157256536691489747.jpeg/300x400",
+      "priceOne": 271,
+      "priceTwo": 600
+    },
+    {
+      "id": 4,
+      "title": "Колье",
+      "image": "https://avatars.mds.yandex.net/get-mpic/4304254/img_id486715309277967794.jpeg/300x400",
+      "priceOne": 299,
+      "priceTwo": 1050
+    },
+    {
+      "id": 5,
+      "title": "Палетка блестящих и матовых теней для век",
+      "image": "https://avatars.mds.yandex.net/get-mpic/11477103/2a0000018bb34fb257ef0c16dd8ec710d3bf/300x400",
+      "priceOne": 330,
+      "priceTwo": 860
+    },
+    {
+      "id": 6,
+      "title": "Наручные часы CASIO Collection W-218HC-4A2",
+      "image": "https://avatars.mds.yandex.net/get-mpic/4362548/2a0000018f32effea4ba6b40fc82a83a1b0c/300x400",
+      "priceOne": 2494,
+      "priceTwo": 3680
+    },
+    {
+      "id": 7,
+      "title": "Сумка",
+      "image": "https://avatars.mds.yandex.net/get-mpic/11771522/2a0000018aff3cc9d340cd961c5e3d6423bc/300x400",
+      "priceOne": 513,
+      "priceTwo": 861
+    },
+    {
+      "id": 8,
+      "title": "Ботинки хайкеры PATROL",
+      "image": "https://avatars.mds.yandex.net/get-mpic/3590777/img_id1685309268396600419.jpeg/300x400",
+      "priceOne": 2895,
+      "priceTwo": 6499
+    },
+    {
+      "id": 9,
+      "title": "Гель для бровей PUSY прозрачный фиксирующий с эффектом ламинирования для макияжа и долговременной укладки, 5мл",
+      "image": "https://avatars.mds.yandex.net/get-mpic/12579532/2a0000018ed262391c19527f09a929d05d25/300x400",
+      "priceOne": 441,
+      "priceTwo": 790
+    },
+    {
+      "id": 10,
+      "title": "Мягкая игрушка кот акула обнимусь / Кот акула батон обнимашка 80 см",
+      "image": "https://avatars.mds.yandex.net/get-mpic/1923211/img_id424871276900140114.jpeg/300x400",
+      "priceOne": 954,
+      "priceTwo": 2499
+    },
+    {
+      "id": 11,
+      "title": "Кольцо помолвочное, фианит",
+      "image": "https://avatars.mds.yandex.net/get-mpic/5252116/img_id48027771568304755.jpeg/300x400",
+      "priceOne": 1200,
+      "priceTwo": 1313
+    },
+    {
+      "id": 12,
+      "title": "Форма для мороженого «Фламинго», 11×11×14 см, 6 ячеек, цвет микс",
+      "image": "https://avatars.mds.yandex.net/get-mpic/5296089/img_id7205008044960323345.jpeg/300x400",
+      "priceOne": 253,
+      "priceTwo": 630
+    },
+    {
+      "id": 13,
+      "title": "Кресло компьютерное игровое ZONE 51 KITTY Pink Z51-KIT-PI",
+      "image": "https://avatars.mds.yandex.net/get-mpic/11631775/2a0000018d0e8069e221cd28a14572843b3f/300x400",
+      "priceOne": 23999,
+      "priceTwo": 25000
+    },
+    {
+      "id": 14,
+      "title": "Гирлянда \"Нить\" 5 м с насадками \"Прищепки\", IP20, прозрачная нить, 30 LED, свечение теплое белое, 8 режимов, 220 В",
+      "image": "https://avatars.mds.yandex.net/get-mpic/5222168/img_id7642623483753310687.jpeg/300x400",
+      "priceOne": 422,
+      "priceTwo": 686
+    },
+    {
+      "id": 15,
+      "title": "DR. F5 Солнцезащитный стик SPF50+ с центеллой, осветляющий 18 г, Корея",
+      "image": "https://avatars.mds.yandex.net/get-mpic/1808939/2a0000018a2d1571e55784246ac3a52edf43/300x400",
+      "priceOne": 1286,
+      "priceTwo": 2294
+    },
+    {
+      "id": 16,
+      "title": "Рубашка",
+      "image": "https://avatars.mds.yandex.net/get-mpic/12523390/2a0000018f0f42d242fc636a151294f04e82/300x400",
+      "priceOne": 1074,
+      "priceTwo": 1820
     }
   ]
 }
